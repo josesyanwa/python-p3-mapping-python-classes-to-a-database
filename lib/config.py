@@ -1,4 +1,4 @@
 import sqlite3
 
-CONN = sqlite3.connect('music.db')
-CURSOR = CONN.cursor()
+DB_CONN= sqlite3.Connection("../db/music.db")
+DB_CURSOR= DB_CONN.cursor()

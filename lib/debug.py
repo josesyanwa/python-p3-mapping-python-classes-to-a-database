@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from config import CONN, CURSOR
+from config import DB_CONN, DB_CURSOR
 from song import Song
 
 
